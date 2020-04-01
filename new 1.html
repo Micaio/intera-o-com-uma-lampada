@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Testando_JS2</title>
+<link rel="stylesheet" href="css.css"/>
+
+<script>
+var quebrada = false;
+function  mudar(tipo){
+if(!quebrada){
+ document.getElementById("luz").src= tipo + ".jpg";
+if(tipo== 'lampada-quebrada'){
+quebrada = true;
+}
+
+}
+}
+
+</script>
+</head>
+<body>
+<div id="kl">
+<h1>Clique na  lampada</h1>
+<figure class="mirela">
+<img src="lampada-apagada.jpg" id="luz"
+onmousemove="mudar('lampada-acesa')"  onmouseout="mudar('lampada-apagada')" onclick="mudar('lampada-quebrada')"/>
+</figure>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body h1{
+	
+	text-align: center;
+
+}
+div#kl
+{
+	dispaly:block;
+	wider:800px;
+}
+	
+figure.mirela {
+
+	
+	
+}
+ figure.mirela img#luz {
+	 	 border: 6px solid white;
+	display:block;
+	margin: auto;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+	 
+ }
